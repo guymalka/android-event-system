@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    android:orientation="horizontal"
+    android:padding="@dimen/abc_control_padding_material"
+    android:id="@+id/update_layout">
+
+
+    <!-- Number of Update -->
+    <TextView
+        android:padding="@dimen/abc_control_padding_material"
+        android:id="@+id/number_update"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:typeface="sans"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <!-- User of Update -->
+        <TextView
+            android:padding="@dimen/abc_control_padding_material"
+            android:id="@+id/user_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noyloy"
+            android:typeface="sans"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <!-- Time of Update -->
+        <TextView
+            android:padding="@dimen/abc_control_padding_material"
+            android:id="@+id/time_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="08/06/2015 14:15"
+            android:typeface="sans"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+    <!-- value of Update -->
+    <TextView
+        android:padding="@dimen/abc_control_padding_material"
+        android:id="@+id/value_update"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:text="lorem ipsum bla bla bla noyloy long text long long long very long text indeed"
+        android:typeface="sans"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

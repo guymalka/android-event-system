@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_main_activity" android:icon="@drawable/ic_folder_grey600_48dp"
+            android:title="@string/title_activity_main" />
+        <item android:id="@+id/nav_mine_activity" android:icon="@drawable/ic_folder_shared_grey600_48dp"
+            android:title="@string/my_events" />
+    </group>
+
+    <item android:title="@string/user_options">
+        <menu>
+            <item android:id="@+id/nav_log_out" android:icon="@drawable/ic_exit_to_app_grey600_48dp"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+
+</menu>

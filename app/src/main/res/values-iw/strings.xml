@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">מערכת אירועים</string>
+    <string name="wait">אנא המתן...</string>
+    <string name="empty">שדה ריק</string>
+    <string name="title_activity_login">התחבר</string>
+    <string name="error">בעיה</string>
+
+    <string name="event_time">זמן</string>
+    <string name="event_unit">מחלקה</string>
+    <string name="event_name">שם</string>
+    <string name="event_id">מספר</string>
+    <string name="event_number">אירוע מספר</string>
+
+    <string name="view">פירוט אירוע</string>
+    <string name="show_on_map">הצג במפה</string>
+    <string name="close_event">סגור אירוע</string>
+
+
+    <string name="event_not_closable">לאירוע משימות שלא בוצעו</string>
+
+    <string name="event_details_section">פרטי אירוע</string>
+    <string name="event_name_edit">שם</string>
+    <string name="event_scenario_edit">תרחיש</string>
+    <string name="event_description_edit">פירוט</string>
+    <string name="event_location_edit">כתובת</string>
+    <string name="event_level_edit">דחיפות</string>
+    <string name="event_start_time_edit">זמן התחלה</string>
+    <string name="event_end_time_edit">זמן סיום</string>
+    <string name="event_status_edit">מצב</string>
+    <string name="event_unit_edit">מחלקה</string>
+    <string name="event_contact_edit">איש קשר</string>
+    <string name="street">רחוב</string>
+    <string name="city">ישוב</string>
+    <string name="house">בית</string>
+    <string name="upload_pic">להעלות תמונה לשרת?</string>
+    <string name="upload_file">להעלות קובץ לשרת?</string>
+    <string name="upload_audio">להעלות קובץ שמע לשרת?</string>
+    <string name="new_event_header">פתיחת אירוע</string>
+    <string name="state">ישראל</string>
+    <string name="time_close_is">זמן סגירה:</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">שם משתמש</string>
+    <string name="prompt_password">סיסמא</string>
+    <string name="action_sign_in">התחבר</string>
+    <string name="action_sign_in_short">התחבר</string>
+    <string name="error_incorrect_password">שם המשתמש או הסיסמא אינם נכונים</string>
+    <string name="remember_me">זכור אותי</string>
+    <string name="title_activity_main">יומן אירועים</string>
+    <string name="empty_update">עדכון ריק</string>
+    <string name="navigation_drawer_open">פתח אפשרויות ניווט</string>
+    <string name="navigation_drawer_close">סגור אפשרויות ניווט</string>
+    <string name="event_updates_section">עדכוני אירוע</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="insert_update">הכנס</string>
+    <string name="event_actions_section">משימות לביצוע</string>
+    <string name="save_action">שמור</string>
+    <string name="file_action">צרף קובץ</string>
+    <string name="camera_action">צלם תמונה</string>
+    <string name="record_action">הקלט שמע</string>
+    <string name="archive_event">שלח לארכיון</string>
+    <string name="event_caller_edit">מדווח</string>
+    <string name="update_succsessful">אירוע עודכן בהצלחה</string>
+    <string name="exit_edit_mode_header">לצאת מניהול אירוע?</string>
+    <string name="exit_edit_mode_body">שינויים שבוצעו לא יישמרו.</string>
+    <string name="no_caller">לא הוכנס פרטי מדווח</string>
+    <string name="event_state_not_closed_header">האירוע במצב פתוח</string>
+    <string name="event_state_not_closed_body">יש לסגור את האירוע לפני קביעת זמן הסגירה</string>
+    <string name="scenario_invalid">תרחיש לא חוקי</string>
+    <string name="city_invalid">עיר לא חוקית</string>
+    <string name="street_invalid">רחוב לא חוקי</string>
+    <string name="unit_invalid">מחלקה לא חוקית</string>
+    <string name="contact_invalid">איש קשר לא חוקי</string>
+    <string name="no_unit_selected">ללא מחלקה</string>
+    <string name="select_scenario">בחר תרחיש</string>
+    <string name="select_contact">בחר איש קשר</string>
+    <string name="enter_event_name">הכנס שם אירוע</string>
+    <string name="event_name_empty">שם אירוע ריק</string>
+    <string name="insert_new_event">הכנס אירוע חדש</string>
+    <string name="event_description_hint">הכנס תיאור אירוע</string>
+    <string name="no_contact">ללא איש קשר</string>
+    <string name="cant_get_location">לא ניתן להשיג כתובת</string>
+    <string name="search_hint">סינון אירועים</string>
+    <string name="log_out">התנתק</string>
+    <string name="user_options">אפשרויות משתמש</string>
+    <string name="my_events">יומן האירועים שלי</string>
+    <string name="event_type_edit">סוג</string>
+    <string name="event_files_section">קבצים</string>
+    <string name="event_photos_section">תמונות</string>
+    <string-array name="event_levels">
+        <item>גבוהה מאוד</item>
+        <item>גבוהה</item>
+        <item>בינונית</item>
+        <item>נמוכה</item>
+        <item>נמוכה מאוד</item>
+    </string-array>
+
+    <string-array name="event_states">
+        <item>פתוח</item>
+        <item>סגור</item>
+    </string-array>
+</resources>
